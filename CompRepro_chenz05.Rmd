@@ -1,0 +1,24 @@
+---
+title: "ComputationalRepro21_VilcekHW"
+author: "Fred LaPolla"
+date: "11/3/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Homework
+
+1) Please explain 1 of Wilson et. al's suggestions for good practices in computational reproducibility:
+ save the raw data and back up raw data at multiple locations in case of corruption. At the same time, you should create analysis friendly data. Don't combine two variable together. And store vairable unit in the column name rather than the value. Long formats of data maybe easier for programming but wide format of data should be stored because it is more intuitive.
+
+
+2) Please find the square root of 4 to the 13th power, writing your code in the gray box below so that it executes and provides the answer. Hit the play button to make sure it works:
+
+```{r}
+sqrt(4^13)
+```
+
+3) Save your file and add it to your GitHub repository at: https://classroom.github.com/a/WO52_vGE
